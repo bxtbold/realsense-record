@@ -1,0 +1,12 @@
+<package>
+  <description brief="realsense_record">
+
+     realsense_record
+
+  </description>
+  <author>Batbold Nemekhbold</author>
+  <license>BSD</license>
+  <url>https://github.com/bxtbold/realsense_record</url>
+  <depend package="rospy"/>
+
+</package>
