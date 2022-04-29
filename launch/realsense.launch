@@ -1,0 +1,4 @@
+<launch>
+	<!-- Main Program -->
+	<include file="$(find realsense2_camera)/rs_camera.launch"/>
+</launch>
