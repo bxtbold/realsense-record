@@ -1,0 +1,8 @@
+<launch>
+	<!-- Realsense Launch -->
+	<include file="$(find realsense2_camera)/launch/rs_camera.launch"/>
+
+    <!-- rosbag record -->
+    <node name="record" pkg="rosbag" type="record" args="-a -O $(find realsense_record)/bag"/>
+
+</launch>
